@@ -85,9 +85,12 @@ body {
 }
 
 #corousal-banner {
-  background: url('img/rc_big.jpg');
-  background-position: center bottom;
+  background: url(../img/rc_big.jpg);
   height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .event-box {
@@ -175,12 +178,6 @@ body {
 
 .flex-in-2 {
   flex: 2;
-}
-
-#corousal-banner {
-  background: url('../img/rc_big.jpg');
-  background-position: center bottom;
-  height: 250px;
 }
 
 .plan-header {
