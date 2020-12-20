@@ -17,8 +17,8 @@
         <div>
           <a class="p-5" href="index.html">Home</a>
           <a class="p-5" href="events.html">Events</a>
-          <a class="p-5">Food & Drinks</a>
-          <a class="p-5">Rides</a>
+          <a class="p-5" href="events.html#food-and-drinks">Food & Drinks</a>
+          <a class="p-5" href="events.html#rides">Rides</a>
           <a class="p-5" href="booking.html">Book Ticket</a>
         </div>
       </div>
@@ -115,17 +115,20 @@
     </section>
 
     <section>
-      <div class="text-center text-bold py-5">
-        <h1>Contact Us</h1>
-      </div>
       <form action="#" class="contact-form">
+        <div class="text-center text-bold">
+          <h1>Contact Us</h1>
+        </div>
         <label for="name">Full Name</label>
         <input type="text" id="name" name="fullname" placeholder="Your Name" />
 
         <label for="email">Email</label>
         <input type="text" id="email" name="email" placeholder="Your Email" />
 
-        <input type="submit" value="Submit" class="button b-green" />
+        <label for="message">Your Query</label>
+        <textarea id="message" name="message" rows="4" cols="50"> </textarea>
+
+        <input type="submit" value="Submit" class="button b-purple" />
       </form>
     </section>
     <footer id="footer-background">
@@ -136,16 +139,17 @@
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis mi quis mi varius venenatis in non
             mauris. Donec nec nunc ut lorem euismod pretium. Curabitur ultricies elit eu sapien iaculis facilisis. Nunc
             eget ultricies dolor. Sed at feugiat enim, sed ultrices lorem. Cras nulla dui, interdum non mauris non,
-            placerat hendrerit enim.<br><br><br>
+            placerat hendrerit enim.<br /><br /><br />
           </span>
         </div>
         <div class="mx-5 flex-in-1">
           <div class="footer-header">Quick Links</div>
           <ul class="footer-list">
-            <li>Home</li>
-            <li>Rides</li>
-            <li>Accomodations</li>
-            <li>Tickets</li>
+            <li><a class="p-5" href="events.html">Home</a></li>
+            <li><a class="p-5" href="events.html">Events</a></li>
+            <li><a class="p-5" href="events.html#food-and-drinks">Food & Drinks</a></li>
+            <li><a class="p-5" href="events.html#rides">Rides</a></li>
+            <li><a class="p-5" href="booking.html">Tickets</a></li>
           </ul>
         </div>
         <div class="mx-5 flex-in-1">
@@ -153,7 +157,7 @@
           <ul class="footer-list">
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
-            <br><br>
+            <br /><br />
           </ul>
         </div>
       </div>

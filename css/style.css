@@ -1,13 +1,15 @@
 a {
   text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
 }
 
 a:hover {
-  color: red;
+  color: #efff0a;
 }
 
 body {
-  background: #fff;
+  background: #eaeafe;
   color: #545454;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -19,7 +21,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background: #484ece;
 }
+
 .p-5 {
   padding-left: 12px;
   padding-right: 12px;
@@ -70,11 +74,11 @@ body {
   text-align: center;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
-.text-booking{
+.text-booking {
   color: white;
 }
 
@@ -94,21 +98,30 @@ body {
 }
 
 .event-box {
-  background-color: aqua;
+  background-color: #484ece;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+  /* font-size: 30px; */
 }
 
 .welcome-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px 0 8px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .welcome-header {
   font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .welcome-subheader {
   width: 60%;
+  text-align: center;
 }
 
 #booking-background {
@@ -129,7 +142,7 @@ body {
 
 .button {
   border: none;
-  color: #fff !important;
+  color: #fff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -141,7 +154,11 @@ body {
 }
 
 .b-purple {
-  background-color: purple;
+  background-color: #484ece;
+}
+
+.b-purple:hover {
+  background-color: #343aa0;
 }
 
 .b-green {
@@ -149,19 +166,20 @@ body {
 }
 
 #footer-background {
-  background-color: #212121;
+  background-color: #343aa0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
 }
 
 .footer-header {
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .footer-content {
-  color: #fff;
   text-align: center;
   font-size: 12px;
 }
@@ -170,6 +188,10 @@ body {
   list-style-type: none;
   text-align: center;
   padding-left: 0;
+}
+
+.footer-list > li {
+  font-size: 14px;
 }
 
 .flex-in-1 {
@@ -193,7 +215,7 @@ body {
 }
 .pricing-plan {
   flex: 1;
-  background-color: purple;
+  background-color: #343aa0;
   margin: 15px 8px;
   padding: 30px;
   border-radius: 36px;
@@ -205,7 +227,7 @@ body {
   padding-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  border-bottom: 2px solid cyan;
+  border-bottom: 2px solid #fff;
 }
 
 .pricing-plan p {
@@ -232,7 +254,8 @@ body {
   padding: 20px 0 20px 0;
 }
 
-input {
+input,
+textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -259,4 +282,8 @@ input {
   margin-left: 16px;
   margin-right: 16px;
   text-align: left;
+}
+
+.food-margin {
+  margin-bottom: 40px;
 }
