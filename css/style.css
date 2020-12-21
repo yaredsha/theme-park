@@ -89,12 +89,17 @@ body {
 }
 
 #corousal-banner {
-  background: url(../img/rc_big.jpg);
+  background: url(../img/big.jpg);
   height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 350px;
 }
 
 .event-box {

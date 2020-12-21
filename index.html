@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Theme Park, Family pack, Vacation'" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Theme Park</title>
   </head>
   <body>
@@ -21,7 +23,14 @@
           <a class="p-5" href="booking.html">Book Ticket</a>
         </div>
       </div>
-      <div id="corousal-banner"></div>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": false, "wrapAround": true, "autoPlay": 5000, "height": 400}'>
+        <div class="gallery-cell carousel-cell">
+        <img src="img/rc_big.jpg"></img>
+        </div>
+        <div class="gallery-cell carousel-cell">
+        <img src="img/rc_big.jpg"></img>
+        </div>
+      </div>
     </header>
     <section>
       <div class="welcome-box">
