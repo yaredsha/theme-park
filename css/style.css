@@ -5,7 +5,7 @@ a {
 }
 
 a:hover {
-  color: #efff0a;
+  color: #f14336;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #484ece;
+  background: #00277a;
 }
 
 .p-5 {
@@ -88,6 +88,10 @@ body {
   padding: 14px 0 14px 0;
 }
 
+.text-drop {
+  text-shadow: 3px 3px 5px #1e1e1e;
+}
+
 #corousal-banner {
   background: url(../img/rc_big.jpg);
   height: 250px;
@@ -98,7 +102,7 @@ body {
 }
 
 .event-box {
-  background-color: #484ece;
+  background-color: #00277a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.281);
   transition: 0.3s;
 }
@@ -160,7 +164,7 @@ h1 {
 }
 
 .b-purple {
-  background-color: #484ece;
+  background-color: #00277a;
 }
 
 .b-purple:hover {
@@ -171,8 +175,12 @@ h1 {
   background-color: green;
 }
 
+.b-red {
+  background-color: #f14336;
+}
+
 #footer-background {
-  background-color: #343aa0;
+  background-color: #00277a;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #fff;
@@ -221,7 +229,7 @@ h1 {
 }
 .pricing-plan {
   flex: 1;
-  background-color: #343aa0;
+  background-color: #00277a;
   margin: 15px 8px;
   padding: 30px;
   border-radius: 36px;
