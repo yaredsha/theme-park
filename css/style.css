@@ -38,7 +38,6 @@ body {
 .d-flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .d-flex-events {
@@ -48,6 +47,24 @@ body {
   align-items: center;
 }
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 900px) {
+  .d-flex-events {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .welcome-header {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+  }
+}
 .d-flex-plan {
   display: flex;
   justify-content: space-around;
@@ -56,7 +73,7 @@ body {
 }
 
 .img-fluid {
-  width: 400px;
+  width: 100%;
   height: 300px;
 }
 
@@ -102,6 +119,9 @@ body {
 }
 
 .event-box {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 0 12px 0 12px;
   background-color: #00277a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.281);
   transition: 0.3s;
@@ -227,6 +247,13 @@ h1 {
   max-width: 900px;
   margin: auto;
 }
+
+@media (max-width: 640px) {
+  .pricing-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .pricing-plan {
   flex: 1;
   background-color: #00277a;
@@ -300,4 +327,19 @@ textarea {
 
 .food-margin {
   margin-bottom: 40px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px 24px;
+}
+
+.danger {
+  color: red;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
