@@ -47,24 +47,6 @@ body {
   align-items: center;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 900px) {
-  .d-flex-events {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 900px) {
-  .welcome-header {
-    font-size: 28px !important;
-  }
-}
-
-@media (max-width: 640px) {
-  .card {
-    flex-direction: column;
-  }
-}
 .d-flex-plan {
   display: flex;
   justify-content: space-around;
@@ -248,12 +230,6 @@ h1 {
   margin: auto;
 }
 
-@media (max-width: 640px) {
-  .pricing-box {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .pricing-plan {
   flex: 1;
   background-color: #00277a;
@@ -261,6 +237,7 @@ h1 {
   padding: 30px;
   border-radius: 36px;
   color: #fff;
+  min-width: 180px;
 }
 
 .pricing-plan h2 {
@@ -333,7 +310,8 @@ td,
 th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px 24px;
+  min-width: 200px;
+  padding: 8px;
 }
 
 .danger {
@@ -342,4 +320,30 @@ th {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+/* Responsive layout - media queries */
+@media (max-width: 900px) {
+  .d-flex-events {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .welcome-header {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricing-box {
+    flex-direction: column;
+    align-items: center;
+  }
 }
