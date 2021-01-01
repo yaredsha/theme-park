@@ -181,6 +181,11 @@ h1 {
   background-color: #f14336;
 }
 
+.b-red:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 #footer-background {
   background-color: #00277a;
   padding-top: 40px;
@@ -289,6 +294,7 @@ textarea {
   max-width: 950px;
   margin: auto;
   justify-content: space-around;
+  align-items: center;
   margin-top: 12px;
 }
 
@@ -300,6 +306,7 @@ textarea {
   margin-left: 16px;
   margin-right: 16px;
   text-align: left;
+  font-size: 14px;
 }
 
 .food-margin {
