@@ -91,7 +91,7 @@ body {
   text-shadow: 3px 3px 5px #1e1e1e;
 }
 
-#corousal-banner {
+#banner {
   background: url(../img/rc_big.jpg);
   height: 250px;
   background-position: center;
@@ -137,11 +137,13 @@ h1 {
 }
 
 #booking-background {
-  position: relative;
-  display: flex;
-  overflow-x: hidden;
+  background: url(../img/booking2.jpg);
   height: 450px;
   margin-top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .book-box {
@@ -309,7 +311,7 @@ textarea {
   font-size: 14px;
 }
 
-.food-margin {
+.bottom-margin {
   margin-bottom: 40px;
 }
 
